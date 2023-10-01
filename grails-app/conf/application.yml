@@ -143,7 +143,6 @@ environments:
                 defaultTransactionIsolation: 2 # TRANSACTION_READ_COMMITTED
 
 favourite:
-    drink: water
     colour: '${FAVOURITE_COLOUR:indigo}'
     hobby: '${FAVOURITE_HOBBY:cycling}'
     planets:
