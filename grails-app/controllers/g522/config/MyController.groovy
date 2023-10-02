@@ -13,7 +13,7 @@ class MyController {
     @Value('${favourite.colour:orange}')
     String favouriteColour
 
-    @Value('${favouritePlace}')
+    @Value('${favourite.place}')
     String favouritePlace
 
     @Value('${favourite.hobby}')
@@ -22,7 +22,7 @@ class MyController {
     @Value('${favourite.planets}')
     List<String> favouritePlanets
 
-    @Value('${favouriteNumber:8}')
+    @Value('${favourite.number:8}')
     Integer favouriteNumber
 
     def index() {
